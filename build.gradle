@@ -1,5 +1,10 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'com.tup.programacion3.Main'
 }
 
 group = 'com.tup.programacion3'
